@@ -16,6 +16,9 @@ To perceive the shape and motion of hands, we use a Google library named Mediapi
 On a next repo, i'll describe how to interact with any of these 21 landmarks. Based on these differents positions, we will be able to trigger different actions. While coming naturally to people, robust real-time hand perception is a decidedly challenging computer vision task, these landmarsks positions can bring many different visual sign to interact with the robot and allowing hand gesture control.
 
 
+### Demo
+[Video Demo](https://www.youtube.com/watch?v=QZaFloqLyVM)
+
 
 ###Code explained
 
