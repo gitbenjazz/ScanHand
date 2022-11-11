@@ -22,7 +22,7 @@ On a next repo, i'll describe how to interact with any of these 21 landmarks. Ba
 
 ###Code explained
 
-We use opencv to process the frames and mediapipe to detect the hands
+I use opencv to process the frames and mediapipe to detect the hands
 ```python
     import cv2 as cv
     import mediapipe as mp
@@ -92,7 +92,7 @@ def scan_hands_frame():
 
 
 
-servo_cam_scan : Is used to rotate the camera from left to right and then right to left. For each pos, we call scan_hands. The result of scan_hands ( found or not found ) is adressed to the variable scan. We rotate the servo while scan is None. No hands detected
+servo_cam_scan : Is use to rotate the camera from left to right and then right to left. For each pos, we call scan_hands. The result of scan_hands ( found or not found ) is adressed to the variable scan. We rotate the servo while scan is None. No hands detected
 
 ```
 def servo_cam_scan_hands():
@@ -131,7 +131,7 @@ def servo_cam_scan_hands():
 
 
 
-The main function call servo_cam_scan inside an infinite loop until a hand is detected and then scan not equal to None. Here we print a text but we can trigger any action we can imagine with the Tank
+The main function call servo_cam_scan inside an infinite loop until a hand is detected and then scan not equal to None. Here we print a text but we can trigger any action we want with the Tank
 
 ```
 def main():
@@ -160,5 +160,10 @@ def main():
     pass
 
 ```
+
+
+### References
+
+https://github.com/YahboomTechnology/Raspberry-Pi-G1-Tank
 
 
